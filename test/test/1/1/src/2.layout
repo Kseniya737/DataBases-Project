@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="402px" prefWidth="815px">
+  <widget actionPerformed="textFieldActionPerformed" name="textField" parent="Form" prefHeight="156px" prefWidth="504px" text="textField" type="TextFieldDesignInfo">
+    <constraints height="156px" left="0px" top="120px" type="MarginConstraintsDesignInfo" width="504px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="120px" prefWidth="504px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints height="120px" left="0px" top="0px" type="MarginConstraintsDesignInfo" width="504px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
