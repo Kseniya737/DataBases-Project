@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="434px" prefWidth="699px" windowOpened="formWindowOpened">
   <widget name="modelGrid" parent="Form" prefHeight="168px" prefWidth="672px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138613387403972" field="false"/>
+    </rowsColumnsDesignInfo>
     <column name="Фамилия">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="W_LNAME"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="W_LNAME"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -17,8 +21,8 @@
     </column>
     <column name="Имя">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="W_NAME"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="W_NAME"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -32,8 +36,8 @@
     </column>
     <column name="Отчество">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="W_MNAME"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="W_MNAME"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -47,8 +51,8 @@
     </column>
     <column name="Специальность">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="SPECIALTY"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="SPECIALTY"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -62,8 +66,8 @@
     </column>
     <column name="Разряд">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="STANDING"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="STANDING"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -77,8 +81,8 @@
     </column>
     <column name="Категория">
       <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
-      <datamodelElement entityId="138613387403972" fieldName="CATEGORY"/>
       <columnsDisplayField/>
+      <datamodelElement entityId="138613387403972" fieldName="CATEGORY"/>
       <columnsDatasource/>
       <cellsDatasource/>
       <cellDesignInfo>
@@ -90,10 +94,6 @@
         <nativeFont name="Tahoma" size="11"/>
       </headerStyle>
     </column>
-    <treeDesignInfo/>
-    <rowsColumnsDesignInfo>
-      <rowsDatasource entityId="138613387403972" field="false"/>
-    </rowsColumnsDesignInfo>
     <constraints bottom="206px" left="12px" right="15px" top="60px" type="MarginConstraintsDesignInfo"/>
   </widget>
   <widget actionPerformed="AddWorkerActionPerformed" name="AddWorker" parent="Form" prefHeight="35px" prefWidth="96px" text="Добавить" toolTipText="&lt;нулевое значение&gt;" type="ButtonDesignInfo">
@@ -108,13 +108,13 @@
   <widget name="textField" parent="Form" prefHeight="36px" prefWidth="120px" type="TextFieldDesignInfo">
     <constraints bottom="134px" height="36px" right="99px" type="MarginConstraintsDesignInfo" width="120px"/>
   </widget>
-  <widget actionPerformed="SaveActionPerformed" name="Save" parent="Form" prefHeight="37px" prefWidth="108px" text="Сохранить" type="ButtonDesignInfo">
-    <constraints bottom="25px" height="37px" right="15px" type="MarginConstraintsDesignInfo" width="108px"/>
+  <widget actionPerformed="SaveActionPerformed" name="Save" parent="Form" prefHeight="48px" prefWidth="144px" text="Сохранить" type="ButtonDesignInfo">
     <easFont name="Tahoma" size="14" style="1"/>
+    <constraints bottom="50px" height="48px" right="15px" type="MarginConstraintsDesignInfo" width="144px"/>
   </widget>
   <widget foregroundColor="#003399" horizontalAlignment="0" name="label" parent="Form" prefHeight="50px" prefWidth="360px" text="Данные о работниках" type="LabelDesignInfo">
-    <constraints height="50px" left="168px" top="0px" type="MarginConstraintsDesignInfo" width="360px"/>
     <easFont name="Tahoma" size="24" style="3"/>
+    <constraints height="50px" left="168px" top="0px" type="MarginConstraintsDesignInfo" width="360px"/>
   </widget>
   <layout type="MarginLayoutDesignInfo"/>
 </layout>

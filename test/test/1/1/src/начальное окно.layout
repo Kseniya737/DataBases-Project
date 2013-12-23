@@ -2,13 +2,13 @@
   <widget actionPerformed="CarsInformationActionPerformed" name="CarsInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Авто" type="ButtonDesignInfo">
     <constraints bottom="25px" height="35px" left="204px" type="MarginConstraintsDesignInfo" width="84px"/>
   </widget>
-  <widget actionPerformed="ClientsInformationActionPerformed" name="ClientsInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Клиент" type="ButtonDesignInfo">
+  <widget actionPerformed="ClientsInformationActionPerformed" name="ClientsInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Клиенте" type="ButtonDesignInfo">
     <constraints bottom="25px" height="35px" left="48px" type="MarginConstraintsDesignInfo" width="84px"/>
   </widget>
-  <widget actionPerformed="WorkersInformationActionPerformed" name="WorkersInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Работник" type="ButtonDesignInfo">
-    <constraints bottom="25px" height="35px" right="40px" type="MarginConstraintsDesignInfo" width="84px"/>
+  <widget actionPerformed="WorkersInformationActionPerformed" name="WorkersInformation" parent="Form" prefHeight="35px" prefWidth="108px" text="Работнике" type="ButtonDesignInfo">
+    <constraints bottom="25px" height="35px" right="28px" type="MarginConstraintsDesignInfo" width="108px"/>
   </widget>
-  <widget actionPerformed="ServiceInformationActionPerformed" name="ServiceInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Услуга" type="ButtonDesignInfo">
+  <widget actionPerformed="ServiceInformationActionPerformed" name="ServiceInformation" parent="Form" prefHeight="35px" prefWidth="84px" text="Услуге" type="ButtonDesignInfo">
     <constraints bottom="25px" height="35px" left="360px" type="MarginConstraintsDesignInfo" width="84px"/>
   </widget>
   <widget foregroundColor="#003399" horizontalAlignment="0" name="label1" parent="Form" prefHeight="48px" prefWidth="324px" text="Добро пожаловать!" type="LabelDesignInfo">
