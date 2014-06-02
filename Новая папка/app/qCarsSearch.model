@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="name" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="CARS" entityHeight="200" entityIconified="false" entityId="138613204491628" entityLocationX="215" entityLocationY="7" entityWidth="150" tableAlias="t1" tableName="CARS" tableSchemaName=""/>
+  <relation leftEntityFieldName="cars_id" leftEntityId="138613204491628" rightEntityId="-1" rightEntityParameterName="name"/>
+</datamodel>

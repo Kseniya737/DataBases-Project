@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="numCar" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="qCar" Title="" entityHeight="71" entityIconified="false" entityId="140092983858248" entityLocationX="462" entityLocationY="156" entityWidth="150" queryId="qCar" tableName="" tableSchemaName=""/>
+  <entity Name="qClients" Title="qClients" entityHeight="200" entityIconified="false" entityId="138613217270566" entityLocationX="695" entityLocationY="21" entityWidth="150" queryId="qClients" tableName="" tableSchemaName=""/>
+  <entity Name="qColor" Title="" entityHeight="67" entityIconified="false" entityId="140092950544620" entityLocationX="444" entityLocationY="4" entityWidth="150" queryId="qColor" tableName="" tableSchemaName=""/>
+  <entity Name="qCarsSearch" Title="qCarsSearch" entityHeight="200" entityIconified="false" entityId="138613216902339" entityLocationX="225" entityLocationY="12" entityWidth="150" queryId="qCarsSearch" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="numCar" rightEntityId="138613216902339" rightEntityParameterName="name"/>
+  <referenceRelation leftEntityFieldName="owner_id" leftEntityId="138613216902339" rightEntityFieldName="clients_id" rightEntityId="138613217270566"/>
+  <referenceRelation leftEntityFieldName="color" leftEntityId="138613216902339" rightEntityFieldName="color_id" rightEntityId="140092950544620"/>
+  <referenceRelation leftEntityFieldName="car" leftEntityId="138613216902339" rightEntityFieldName="car_id" rightEntityId="140092983858248"/>
+</datamodel>
